@@ -90,4 +90,7 @@ Con lo anterior, y con los tiempos de ejecución dados, haga una gráfica de tie
 3. De acuerdo con lo anterior, si para este problema en lugar de 100 hilos en una sola CPU se pudiera usar 1 hilo en cada una de 100 máquinas hipotéticas, la ley de Amdahls se aplicaría mejor?. Si en lugar de esto se usaran c hilos en 100/c máquinas distribuidas (siendo c es el número de núcleos de dichas máquinas), se mejoraría?. Explique su respuesta.
 
 
+# SOLUCION
+
+![image](https://user-images.githubusercontent.com/90010904/184147217-58da8427-1bb8-453d-b303-03314968f683.png)
 
