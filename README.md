@@ -92,5 +92,11 @@ Con lo anterior, y con los tiempos de ejecución dados, haga una gráfica de tie
 
 # SOLUCION
 
+Usando el metodo Start
+
+![image](https://user-images.githubusercontent.com/90010904/184147804-39073a37-fd86-4323-b6b0-c76e669e470d.png)
+
+Usando el metodo Run
+
 ![image](https://user-images.githubusercontent.com/90010904/184147217-58da8427-1bb8-453d-b303-03314968f683.png)
 
