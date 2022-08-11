@@ -3,6 +3,10 @@
 ### Arquitecturas de Software - ARSW
 ## Ejercicio Introducción al paralelismo - Hilos - Caso BlackListSearch
 
+## Integrantes:
+### Sergio Andres Rozo Pulido
+### Juan Diego Becerra Peña
+
 
 ### Dependencias:
 ####   Lecturas:
