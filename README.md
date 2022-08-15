@@ -100,3 +100,7 @@ Usando el metodo Run
 
 ![image](https://user-images.githubusercontent.com/90010904/184147217-58da8427-1bb8-453d-b303-03314968f683.png)
 
+
+1 hilo
+![image](https://user-images.githubusercontent.com/90010884/184724800-776d9705-ee84-4dc2-9a13-68f2da8f4bd6.png)
+
