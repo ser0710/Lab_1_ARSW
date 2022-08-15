@@ -102,5 +102,11 @@ Usando el metodo Run
 
 
 1 hilo
+
 ![image](https://user-images.githubusercontent.com/90010884/184724800-776d9705-ee84-4dc2-9a13-68f2da8f4bd6.png)
+
+50 hilos
+
+![image](https://user-images.githubusercontent.com/90010884/184724974-1d1318ed-cabf-404c-89cd-ed9a7c51f43e.png)
+
 
