@@ -120,3 +120,8 @@ procesadores (12)
 doble de procesador (24)
 
 ![image](https://user-images.githubusercontent.com/90010884/184726599-9026b903-b771-4149-972d-1d46015d9081.png)
+
+Grafico de tiempo 
+
+![image](https://user-images.githubusercontent.com/90010884/184727724-822ef1ba-26ec-4808-a3ec-93900037bf09.png)
+
