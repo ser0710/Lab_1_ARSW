@@ -113,4 +113,10 @@ Usando el metodo Run
 
 ![image](https://user-images.githubusercontent.com/90010884/184725160-e0a44bfe-dc4b-474c-bed3-537f5f364275.png)
 
+procesadores (12)
 
+![image](https://user-images.githubusercontent.com/90010884/184726561-1ecfeacc-38c2-4af0-8407-a1b92361445c.png)
+
+doble de procesador (24)
+
+![image](https://user-images.githubusercontent.com/90010884/184726599-9026b903-b771-4149-972d-1d46015d9081.png)
