@@ -92,6 +92,8 @@ Con lo anterior, y con los tiempos de ejecución dados, haga una gráfica de tie
 
 # SOLUCION
 
+## Parte I
+
 Usando el metodo Start
 
 ![image](https://user-images.githubusercontent.com/90010904/184147804-39073a37-fd86-4323-b6b0-c76e669e470d.png)
@@ -100,10 +102,21 @@ Usando el metodo Run
 
 ![image](https://user-images.githubusercontent.com/90010904/184147217-58da8427-1bb8-453d-b303-03314968f683.png)
 
+AL momento de usar start() crea el hilo y lo pone a correr asi con cada uno, de esta manera se genera una ejecucion paralela, mientras que con run() simplemente corre el hilo pero no lo crea, asi que espera que este termine para poder pasar al siguiente hilo y asi sucesivamente.
+
+## Parte III
 
 1 hilo
 
 ![image](https://user-images.githubusercontent.com/90010884/184724800-776d9705-ee84-4dc2-9a13-68f2da8f4bd6.png)
+
+nucleos de procesamiento (12)
+
+![image](https://user-images.githubusercontent.com/90010884/184726561-1ecfeacc-38c2-4af0-8407-a1b92361445c.png)
+
+doble de nucleos de procesamiento (24)
+
+![image](https://user-images.githubusercontent.com/90010884/184726599-9026b903-b771-4149-972d-1d46015d9081.png)
 
 50 hilos
 
@@ -113,15 +126,12 @@ Usando el metodo Run
 
 ![image](https://user-images.githubusercontent.com/90010884/184725160-e0a44bfe-dc4b-474c-bed3-537f5f364275.png)
 
-procesadores (12)
-
-![image](https://user-images.githubusercontent.com/90010884/184726561-1ecfeacc-38c2-4af0-8407-a1b92361445c.png)
-
-doble de procesador (24)
-
-![image](https://user-images.githubusercontent.com/90010884/184726599-9026b903-b771-4149-972d-1d46015d9081.png)
-
 Grafico de tiempo 
 
 ![image](https://user-images.githubusercontent.com/90010884/184727724-822ef1ba-26ec-4808-a3ec-93900037bf09.png)
 
+## Parte IV
+
+1. Como podemos ver en el punto anterior entre mayor cantidad de hilos, el tiempo reduce significativamente. Pero si seguimos la ley de Amdahls llegara a un punto donde el tiempo de ejecucion no se podra reducir mas, esto puede deberse a las capacidades del PC. Al igual el JVisualVM no tenemos una buena exactitud pues con 200 o con 500 hilos se demora 0 seg.
+2. Si nos detallamos las imagenes, si usamos la cantidad de nucleos del pc (la cual en nuestro caso fueron 12) tiene un tiempo de 15 seg y un uso de la cpu de 0.6%, pero cuando lo duplicamos, el tiempo disminuye a la mitad y el uso de la cpu baja a un 0.2%, si esto se implementa en proyectos grandes puede ser mucho mas eficiente al momento de resolver un problema. 
+3. En el caso hipotetico de tener 100 maqquinas y cada una ejecutando un solo hilo no estariamos aprovechando el procesador de los equipos, puede que si disminuya el tiempo de ejecucion pero no en gran magnitud. Ahora, si usamos los 100 equipos con N hilos por equipo, podriamos ver un cambio significativo en el tiempo y en el uso de cada CPU, pues varias acciones se estan ejecutando al mismo tiempo reduciendo asi la complejidad completa del problema
